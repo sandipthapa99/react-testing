@@ -19,6 +19,9 @@ describe("application", () => {
     const paragraphElement = screen.getByText("All fields are mandatory");
     expect(paragraphElement).toBeInTheDocument();
 
+    const imageElement = screen.getByAltText("this is alt text");
+    expect(imageElement).toBeInTheDocument();
+
     const nameElement = screen.getByRole("textbox", {
       name: "Name",
     });
