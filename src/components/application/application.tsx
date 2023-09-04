@@ -6,6 +6,8 @@ export const Application = () => {
 
       <p>All fields are mandatory</p>
 
+      <span title="close">X</span>
+
       <img src="https://via.placeholder.com/150" alt="this is alt text" />
 
       <form>
