@@ -10,6 +10,8 @@ export const Application = () => {
 
       <img src="https://via.placeholder.com/150" alt="this is alt text" />
 
+      <div data-testid="custom-element">Custom HTML element</div>
+
       <form>
         <div>
           <label htmlFor="name">Name</label>
